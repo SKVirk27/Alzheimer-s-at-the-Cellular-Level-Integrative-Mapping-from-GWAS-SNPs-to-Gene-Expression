@@ -1,0 +1,46 @@
+# MEAN_SAMPLE_SIZE = 455258
+# TOTAL_GENES = 1417
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_VARIABLES = microglia (covar)
+VARIABLE                  TYPE  MODEL  NGENES         BETA     BETA_STD           SE            P
+microglia                COVAR      1    1417    0.0084293      0.10441    0.0022193   7.5989e-05
+astrocyte                COVAR      1    1417  -0.00047274   -0.0058896    0.0021862      0.58559
+microglia                COVAR      2    1417    0.0084478      0.10464    0.0022177   7.2687e-05
+b_cell                   COVAR      2    1417   0.00020273    0.0010125    0.0054554      0.48518
+microglia                COVAR      3    1417    0.0082197      0.10181    0.0022267   0.00011578
+central_memory           COVAR      3    1417   -0.0021299    -0.029455    0.0019728      0.85975
+microglia                COVAR      4    1417    0.0081764      0.10128    0.0022839   0.00017757
+cycling                  COVAR      4    1417    0.0010157      0.01371    0.0020402      0.30934
+microglia                COVAR      5    1417    0.0081104      0.10046    0.0022631   0.00017512
+endothelial              COVAR      5    1417    -0.001608    -0.020565    0.0021569      0.77195
+microglia                COVAR      6    1417    0.0084249      0.10435    0.0022211   7.7554e-05
+fetal_quiescent          COVAR      6    1417  -0.00039313   -0.0052275    0.0020826      0.57485
+microglia                COVAR      7    1417    0.0077217     0.095642    0.0022796   0.00036266
+fetal_replicating        COVAR      7    1417   -0.0028456    -0.038192    0.0020915      0.91307
+microglia                COVAR      8    1417    0.0066025     0.081781    0.0023276    0.0023125
+hsc_g_csf                COVAR      8    1417    0.0054225     0.072993    0.0021243    0.0053994
+microglia                COVAR      9    1417    0.0084992      0.10527     0.002217   6.5909e-05
+hybrid                   COVAR      9    1417   -0.0025389    -0.030476    0.0022937      0.86573
+microglia                COVAR     10    1417    0.0081192      0.10057    0.0029695    0.0031658
+macrophage               COVAR     10    1417   0.00046275    0.0061227    0.0027721      0.43372
+microglia                COVAR     11    1417     0.008438      0.10452    0.0022859   0.00011582
+neuroepithelial_cell     COVAR     11    1417  -4.0622e-05  -0.00055341    0.0020719      0.50782
+microglia                COVAR     12    1417    0.0084639      0.10484    0.0022167   7.0132e-05
+neurons                  COVAR     12    1417   -0.0023777    -0.028374    0.0023128      0.84794
+microglia                COVAR     13    1417    0.0072197     0.089426    0.0026703    0.0034693
+neutrophils              COVAR     13    1417    0.0020232     0.027046    0.0024499      0.20452
+microglia                COVAR     14    1417    0.0079396     0.098342    0.0022279   0.00018888
+nk_cell                  COVAR     14    1417    0.0041213     0.056556    0.0019972     0.019619
+microglia                COVAR     15    1417    0.0086275      0.10686    0.0022273   5.6118e-05
+oligodendrocytes         COVAR     15    1417   -0.0019659    -0.022895    0.0023664      0.79687
+microglia                COVAR     16    1417      0.00847      0.10491    0.0022159   6.8965e-05
+opc                      COVAR     16    1417   -0.0032705    -0.039758    0.0022609      0.92587
+microglia                COVAR     17    1417     0.007267     0.090011     0.002668    0.0032667
+pro_b_cell_cd34+         COVAR     17    1417    0.0021597      0.02619    0.0027122        0.213
+microglia                COVAR     18    1417    0.0081922      0.10147    0.0022274   0.00012203
+t_cells                  COVAR     18    1417     0.002343     0.032078    0.0020185      0.12296
+microglia                COVAR     19    1417    0.0084235      0.10434    0.0022164    7.527e-05
+transitional_memory      COVAR     19    1417    0.0024338     0.033271    0.0019641      0.10775
+microglia                COVAR     20    1417    0.0061996      0.07679    0.0024927    0.0064971
+type_1_ifn_signature     COVAR     20    1417    0.0045182     0.060054    0.0022989     0.024783

@@ -1,0 +1,39 @@
+Welcome to MAGMA v1.10 (custom)
+Using flags:
+	--gene-results /Users/simranjitvirk/Downloads/MAGMA_Files/MAGMA_Files.35UP.10DOWN/MAGMA_Files.35UP.10DOWN.genes.raw
+	--gene-covar /var/folders/sc/grc86fmd58v4_y70khvnnjpm0000gn/T//Rtmpzmq3yW/file11b2042de1ab
+	--model direction=pos condition=monocyte
+	--out /Users/simranjitvirk/Downloads/MAGMA_Files/MAGMA_Files.35UP.10DOWN/MAGMA_Files.35UP.10DOWN.level1.35UP.10DOWN.Linear.ControlFor_monocyte
+
+Start time is 01:13:49, Friday 03 Nov 2023
+
+Reading file /Users/simranjitvirk/Downloads/MAGMA_Files/MAGMA_Files.35UP.10DOWN/MAGMA_Files.35UP.10DOWN.genes.raw... 
+	18199 genes read from file
+Loading gene-level covariates...
+Reading file /var/folders/sc/grc86fmd58v4_y70khvnnjpm0000gn/T//Rtmpzmq3yW/file11b2042de1ab... 
+	detected 22 variables in file (using all)
+	found 22 valid gene covariates, for 1408 genes defined in genotype data
+Processing missing values...
+	found 16791 genes not present in all input files: removing these from analysis
+	1408 genes remaining in analysis
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 22 gene covariates
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), one-sided, positive (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		inverse mac, log(inverse mac)
+	conditioning on input variables:
+		monocyte (covar)
+	analysing individual variables
+
+	analysing single-variable models (number of models: 21)
+	writing results to file /Users/simranjitvirk/Downloads/MAGMA_Files/MAGMA_Files.35UP.10DOWN/MAGMA_Files.35UP.10DOWN.level1.35UP.10DOWN.Linear.ControlFor_monocyte.gsa.out
+
+End time is 01:13:49, Friday 03 Nov 2023 (elapsed: 00:00:00)

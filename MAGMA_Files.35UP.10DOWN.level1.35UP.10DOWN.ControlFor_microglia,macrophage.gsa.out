@@ -1,0 +1,63 @@
+# MEAN_SAMPLE_SIZE = 455258
+# TOTAL_GENES = 1417
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_VARIABLES = macrophage (covar), microglia (covar)
+VARIABLE                  TYPE  MODEL  NGENES         BETA     BETA_STD           SE            P
+macrophage               COVAR      1    1417   0.00038622    0.0051101    0.0028008      0.44517
+microglia                COVAR      1    1417    0.0081559      0.10102    0.0029765    0.0031097
+astrocyte                COVAR      1    1417  -0.00042999   -0.0053569    0.0022088      0.57716
+macrophage               COVAR      2    1417   0.00045995    0.0060856    0.0027745      0.43418
+microglia                COVAR      2    1417    0.0081203      0.10058    0.0029707    0.0031733
+b_cell                   COVAR      2    1417   0.00017409   0.00086946    0.0054601      0.48728
+macrophage               COVAR      3    1417   0.00058252    0.0077073    0.0027741      0.41686
+microglia                COVAR      3    1417    0.0078029     0.096648    0.0029836    0.0045051
+central_memory           COVAR      3    1417   -0.0021463    -0.029682     0.001975      0.86133
+macrophage               COVAR      4    1417   9.1779e-05    0.0012143    0.0028831       0.4873
+microglia                COVAR      4    1417     0.008116      0.10053    0.0029703    0.0031835
+cycling                  COVAR      4    1417   0.00099716      0.01346     0.002122      0.31925
+macrophage               COVAR      5    1417   0.00034617    0.0045802    0.0027771      0.45041
+microglia                COVAR      5    1417     0.007867     0.097442    0.0029897    0.0042982
+endothelial              COVAR      5    1417   -0.0015926    -0.020368    0.0021612      0.76935
+macrophage               COVAR      6    1417    0.0004102    0.0054273      0.00279      0.44157
+microglia                COVAR      6    1417    0.0081347      0.10076    0.0029719    0.0031372
+fetal_quiescent          COVAR      6    1417  -0.00035927   -0.0047771     0.002096      0.56803
+macrophage               COVAR      7    1417   0.00027972    0.0037009    0.0027746      0.45986
+microglia                COVAR      7    1417     0.007525     0.093207    0.0030009    0.0061342
+fetal_replicating        COVAR      7    1417   -0.0028353    -0.038054    0.0020947      0.91195
+macrophage               COVAR      8    1417  -0.00011612   -0.0015364    0.0027761      0.51668
+microglia                COVAR      8    1417    0.0066828     0.082775    0.0030169     0.013457
+hsc_g_csf                COVAR      8    1417    0.0054298     0.073091    0.0021323    0.0054935
+macrophage               COVAR      9    1417  -0.00032018   -0.0042363    0.0028619      0.54453
+microglia                COVAR      9    1417    0.0087286      0.10812    0.0030206    0.0019574
+hybrid                   COVAR      9    1417   -0.0026048    -0.031268     0.002369      0.86414
+macrophage               COVAR     10    1417   0.00046173    0.0061091    0.0027739      0.43391
+microglia                COVAR     10    1417    0.0081113      0.10047    0.0030138    0.0036005
+neuroepithelial_cell     COVAR     10    1417  -3.2484e-05  -0.00044255    0.0020732      0.50625
+macrophage               COVAR     11    1417  -0.00021998   -0.0029106    0.0028522      0.53073
+microglia                COVAR     11    1417    0.0086209      0.10678    0.0030102    0.0021232
+neurons                  COVAR     11    1417   -0.0024209     -0.02889    0.0023805      0.84532
+macrophage               COVAR     12    1417  -0.00045735   -0.0060512    0.0029894      0.56079
+microglia                COVAR     12    1417    0.0074537     0.092324     0.003078     0.007789
+neutrophils              COVAR     12    1417    0.0021744     0.029067    0.0026426      0.20537
+macrophage               COVAR     13    1417  -0.00011423   -0.0015114    0.0027831      0.51637
+microglia                COVAR     13    1417      0.00802     0.099338    0.0029665    0.0034718
+nk_cell                  COVAR     13    1417    0.0041297      0.05667    0.0020081     0.019959
+macrophage               COVAR     14    1417    0.0001275     0.001687    0.0028028      0.48186
+microglia                COVAR     14    1417    0.0085352      0.10572    0.0030134     0.002343
+oligodendrocytes         COVAR     14    1417   -0.0019499    -0.022709    0.0023932      0.79233
+macrophage               COVAR     15    1417  -0.00027566   -0.0036473    0.0028181      0.53895
+microglia                COVAR     15    1417    0.0086667      0.10735    0.0029926    0.0019189
+opc                      COVAR     15    1417   -0.0033114    -0.040256    0.0023001      0.92491
+macrophage               COVAR     16    1417   0.00034146    0.0045179    0.0027768      0.45107
+microglia                COVAR     16    1417    0.0070339     0.087123    0.0032738      0.01592
+pro_b_cell_cd34+         COVAR     16    1417    0.0021412     0.025965    0.0027174      0.21542
+macrophage               COVAR     17    1417   0.00021705    0.0028718      0.00278      0.46889
+microglia                COVAR     17    1417    0.0080389     0.099572      0.00297    0.0034388
+t_cells                  COVAR     17    1417    0.0023309     0.031911    0.0020252      0.12497
+macrophage               COVAR     18    1417    0.0002085    0.0027586    0.0027793      0.47011
+microglia                COVAR     18    1417     0.008275       0.1025    0.0029717    0.0027153
+transitional_memory      COVAR     18    1417    0.0024228     0.033121    0.0019702      0.10951
+macrophage               COVAR     19    1417   -0.0013475    -0.017829    0.0029117      0.67821
+microglia                COVAR     19    1417    0.0069875     0.086549    0.0030192     0.010395
+type_1_ifn_signature     COVAR     19    1417     0.004864     0.064651    0.0024179     0.022222

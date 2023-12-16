@@ -1,0 +1,66 @@
+# MEAN_SAMPLE_SIZE = 455258
+# TOTAL_GENES = 1408
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_VARIABLES = microglia (covar), monocyte (covar)
+VARIABLE                  TYPE  MODEL  NGENES         BETA     BETA_STD           SE            P
+microglia                COVAR      1    1408    0.0034213      0.04144    0.0028906      0.11839
+monocyte                 COVAR      1    1408    0.0064841     0.085728    0.0026123    0.0065873
+astrocyte                COVAR      1    1408   0.00032935    0.0039611    0.0023362      0.44395
+microglia                COVAR      2    1408    0.0039055     0.047305    0.0028033     0.081892
+monocyte                 COVAR      2    1408    0.0072127     0.095361     0.002588    0.0026959
+b_cell                   COVAR      2    1408     -0.00394    -0.053095    0.0020587      0.97207
+microglia                COVAR      3    1408    0.0036811     0.044587    0.0028448      0.09795
+monocyte                 COVAR      3    1408    0.0064136     0.084796     0.002557    0.0061221
+cycling                  COVAR      3    1408   0.00066202    0.0087151    0.0021102      0.37689
+microglia                COVAR      4    1408    0.0035115     0.042532    0.0027982      0.10486
+monocyte                 COVAR      4    1408    0.0060424     0.079889    0.0025716    0.0094633
+cytotoxic_th1            COVAR      4    1408    0.0024585     0.034131    0.0019262      0.10101
+microglia                COVAR      5    1408    0.0035356     0.042824    0.0027992      0.10339
+monocyte                 COVAR      5    1408    0.0061892     0.081828     0.002572    0.0081199
+embryonic_stem_cells     COVAR      5    1408   -0.0016722    -0.021228    0.0021484      0.78175
+microglia                COVAR      6    1408    0.0034115     0.041322    0.0028064      0.11217
+monocyte                 COVAR      6    1408    0.0063137     0.083475    0.0025623    0.0069276
+endothelial              COVAR      6    1408   -0.0012683    -0.015449    0.0022536      0.71317
+microglia                COVAR      7    1408    0.0036616     0.044351    0.0027979     0.095429
+monocyte                 COVAR      7    1408    0.0060021     0.079355     0.002565    0.0097122
+fetal_quiescent          COVAR      7    1408   -0.0036651    -0.046905    0.0021148      0.95835
+microglia                COVAR      8    1408    0.0036141     0.043776    0.0028081     0.099145
+monocyte                 COVAR      8    1408    0.0064243     0.084937    0.0025571    0.0060527
+fetal_replicating        COVAR      8    1408   0.00084724     0.011374    0.0020174      0.33729
+microglia                COVAR      9    1408    0.0036178     0.043821    0.0028002     0.098283
+monocyte                 COVAR      9    1408     0.006476     0.085621    0.0025568    0.0057112
+gabaergic_neurons        COVAR      9    1408    0.0036395     0.028226    0.0034732      0.14743
+microglia                COVAR     10    1408     0.004106     0.049733    0.0029167     0.079716
+monocyte                 COVAR     10    1408    0.0057898     0.076548    0.0027003     0.016099
+hybrid                   COVAR     10    1408    -0.001738    -0.020426    0.0024412      0.76169
+microglia                COVAR     11    1408    0.0025875     0.031342    0.0031403      0.20504
+monocyte                 COVAR     11    1408    0.0059928     0.079232    0.0026338     0.011518
+macrophage               COVAR     11    1408    0.0017128     0.023238    0.0026065       0.2556
+microglia                COVAR     12    1408    0.0038906     0.047125    0.0028936     0.089494
+monocyte                 COVAR     12    1408    0.0060449     0.079921    0.0026572     0.011532
+neurons                  COVAR     12    1408    -0.001213    -0.014294    0.0024127      0.69239
+microglia                COVAR     13    1408    0.0030123     0.036486    0.0028684      0.14691
+monocyte                 COVAR     13    1408    0.0062097       0.0821     0.002568    0.0078652
+neutrophils              COVAR     13    1408    0.0024108     0.023185    0.0029586      0.20765
+microglia                COVAR     14    1408    0.0032154     0.038946    0.0028069       0.1261
+monocyte                 COVAR     14    1408     0.006211     0.082117    0.0025594      0.00768
+nk_cell                  COVAR     14    1408     0.002677     0.036806    0.0019595     0.086059
+microglia                COVAR     15    1408    0.0041985     0.050854    0.0029093     0.074603
+monocyte                 COVAR     15    1408    0.0059241     0.078323    0.0026189     0.011923
+oligodendrocytes         COVAR     15    1408   -0.0019837    -0.024005    0.0023282      0.80283
+microglia                COVAR     16    1408    0.0042945     0.052018    0.0028704     0.067418
+monocyte                 COVAR     16    1408    0.0057875     0.076517    0.0026069     0.013288
+opc                      COVAR     16    1408   -0.0027973    -0.033887    0.0023157      0.88636
+microglia                COVAR     17    1408    0.0034361     0.041619    0.0028025      0.11019
+monocyte                 COVAR     17    1408    0.0062802     0.083032    0.0025641    0.0072187
+stem_cells               COVAR     17    1408   -0.0013808    -0.017949    0.0021075      0.74378
+microglia                COVAR     18    1408     0.003406     0.041255    0.0028095      0.11279
+monocyte                 COVAR     18    1408    0.0063532     0.083997    0.0025592    0.0065825
+t_cells                  COVAR     18    1408   0.00098857     0.013354    0.0019994      0.31054
+microglia                COVAR     19    1408    0.0035666     0.043201    0.0028049      0.10187
+monocyte                 COVAR     19    1408    0.0063928     0.084521    0.0025577    0.0062762
+transitional_memory      COVAR     19    1408   0.00052283    0.0069734    0.0020324      0.39851
+microglia                COVAR     20    1408    0.0036927     0.044728    0.0028139     0.094816
+monocyte                 COVAR     20    1408     0.006416     0.084827    0.0025567    0.0061018
+type_1_ifn_signature     COVAR     20    1408    0.0012133      0.01621    0.0020332      0.27538

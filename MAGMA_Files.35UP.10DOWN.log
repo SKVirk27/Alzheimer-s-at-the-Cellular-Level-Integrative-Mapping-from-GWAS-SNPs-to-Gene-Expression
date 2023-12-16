@@ -1,0 +1,40 @@
+Welcome to MAGMA v1.10 (custom)
+Using flags:
+	--bfile /Users/simranjitvirk/Library/Caches/org.R-project.R/R/MAGMA.Celltyping/g1000_eur/g1000_eur
+	--pval /Users/simranjitvirk/Downloads/GSE188545_RAW/gwas_Alz.tsv ncol=N
+	--gene-annot /Users/simranjitvirk/Downloads/GSE188545_RAW/MAGMA_Files/gwas_Alz.tsv.35UP.10DOWN/gwas_Alz.tsv.35UP.10DOWN.genes.annot
+	--out /Users/simranjitvirk/Downloads/GSE188545_RAW/MAGMA_Files/gwas_Alz.tsv.35UP.10DOWN/gwas_Alz.tsv.35UP.10DOWN
+
+Start time is 11:47:56, Thursday 02 Nov 2023
+
+Loading PLINK-format data...
+Reading file /Users/simranjitvirk/Library/Caches/org.R-project.R/R/MAGMA.Celltyping/g1000_eur/g1000_eur.fam... 503 individuals read
+Reading file /Users/simranjitvirk/Library/Caches/org.R-project.R/R/MAGMA.Celltyping/g1000_eur/g1000_eur.bim... 22665064 SNPs read
+Preparing file /Users/simranjitvirk/Library/Caches/org.R-project.R/R/MAGMA.Celltyping/g1000_eur/g1000_eur.bed... 
+
+Reading SNP synonyms from file /Users/simranjitvirk/Library/Caches/org.R-project.R/R/MAGMA.Celltyping/g1000_eur/g1000_eur.synonyms (auto-detected)
+	read 6016767 mapped synonyms from file, mapping to 3921040 SNPs in the data
+	WARNING: detected 133 synonymous SNP pairs in the data
+	         skipped all synonym entries involved, synonymous SNPs are kept in analysis
+	         writing list of detected synonyms in data to supplementary log file
+Reading SNP p-values from file /Users/simranjitvirk/Downloads/GSE188545_RAW/gwas_Alz.tsv... 
+	detected 12 variables in file
+	using variable: SNP (SNP id)
+	using variable: P (p-value)
+	using variable: N (sample size; discarding SNPs with N < 50)
+	read 10818371 lines from file, containing valid SNP p-values for 10818368 SNPs in data (100% of lines, 47.73% of SNPs in data)
+	WARNING: file contained 1 SNP (same ID or synonym) with duplications
+	         dropped all occurrences of each from analysis
+	         writing list of duplicated IDs to supplementary log file
+Loading gene annotation from file /Users/simranjitvirk/Downloads/GSE188545_RAW/MAGMA_Files/gwas_Alz.tsv.35UP.10DOWN/gwas_Alz.tsv.35UP.10DOWN.genes.annot... 
+	18199 gene definitions read from file
+	found 18199 genes containing valid SNPs in genotype data
+
+
+Starting gene analysis... 
+	using model: SNPwise-mean
+	writing gene analysis results to file /Users/simranjitvirk/Downloads/GSE188545_RAW/MAGMA_Files/gwas_Alz.tsv.35UP.10DOWN/gwas_Alz.tsv.35UP.10DOWN.genes.out
+	writing intermediate output to file /Users/simranjitvirk/Downloads/GSE188545_RAW/MAGMA_Files/gwas_Alz.tsv.35UP.10DOWN/gwas_Alz.tsv.35UP.10DOWN.genes.raw
+
+
+End time is 12:17:40, Thursday 02 Nov 2023 (elapsed: 00:29:44)

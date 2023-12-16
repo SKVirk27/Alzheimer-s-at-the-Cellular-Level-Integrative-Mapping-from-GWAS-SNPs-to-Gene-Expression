@@ -1,0 +1,46 @@
+# MEAN_SAMPLE_SIZE = 455258
+# TOTAL_GENES = 1417
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+# CONDITIONED_VARIABLES = macrophage (covar)
+VARIABLE                  TYPE  MODEL  NGENES         BETA     BETA_STD           SE            P
+macrophage               COVAR      1    1417    0.0054981     0.072745    0.0020939    0.0043689
+astrocyte                COVAR      1    1417  -4.6847e-05  -0.00058364    0.0022094      0.50846
+macrophage               COVAR      2    1417    0.0055038     0.072821    0.0020767    0.0040659
+b_cell                   COVAR      2    1417   1.1008e-05   5.4975e-05    0.0054723       0.4992
+macrophage               COVAR      3    1417    0.0054093      0.07157    0.0020754    0.0046238
+central_memory           COVAR      3    1417   -0.0026503    -0.036652    0.0019697      0.91067
+macrophage               COVAR      4    1417     0.005126     0.067822    0.0022226     0.010621
+cycling                  COVAR      4    1417    0.0010106     0.013641    0.0021269      0.31738
+macrophage               COVAR      5    1417     0.005119      0.06773    0.0021073    0.0076293
+endothelial              COVAR      5    1417   -0.0022438    -0.028696    0.0021515      0.85142
+macrophage               COVAR      6    1417    0.0054818      0.07253    0.0020907    0.0044179
+fetal_quiescent          COVAR      6    1417  -0.00018529   -0.0024638    0.0020999      0.53515
+macrophage               COVAR      7    1417    0.0048024      0.06354    0.0021124     0.011575
+fetal_replicating        COVAR      7    1417   -0.0036037    -0.048367     0.002076       0.9586
+macrophage               COVAR      8    1417     0.003794     0.050198    0.0021455      0.03861
+hsc_g_csf                COVAR      8    1417    0.0063129     0.084978    0.0020976    0.0013311
+macrophage               COVAR      9    1417    0.0052945     0.070051    0.0021068    0.0060393
+hybrid                   COVAR      9    1417   -0.0013487     -0.01619    0.0023348       0.7182
+macrophage               COVAR     10    1417   0.00046275    0.0061227    0.0027721      0.43372
+microglia                COVAR     10    1417    0.0081192      0.10057    0.0029695    0.0031658
+macrophage               COVAR     11    1417    0.0053246      0.07045    0.0021093    0.0058501
+neuroepithelial_cell     COVAR     11    1417  -0.00097465    -0.013278    0.0020479       0.6829
+macrophage               COVAR     12    1417     0.005304     0.070177    0.0021065    0.0059577
+neurons                  COVAR     12    1417   -0.0013037    -0.015558    0.0023544      0.71008
+macrophage               COVAR     13    1417    0.0031395     0.041539    0.0025988      0.11361
+neutrophils              COVAR     13    1417     0.003856     0.051546    0.0025541     0.065673
+macrophage               COVAR     14    1417    0.0048517     0.064193    0.0020956     0.010372
+nk_cell                  COVAR     14    1417     0.004218     0.057882    0.0020123     0.018127
+macrophage               COVAR     15    1417    0.0054723     0.072404    0.0020776    0.0042656
+oligodendrocytes         COVAR     15    1417  -0.00080157   -0.0093352    0.0023644      0.63267
+macrophage               COVAR     16    1417    0.0052073     0.068898    0.0020929    0.0064789
+opc                      COVAR     16    1417    -0.002465    -0.029966    0.0022874      0.85931
+macrophage               COVAR     17    1417    0.0037965     0.050232    0.0022666     0.047082
+pro_b_cell_cd34+         COVAR     17    1417    0.0045976     0.055754    0.0024683     0.031358
+macrophage               COVAR     18    1417     0.005192     0.068696    0.0020904    0.0065576
+t_cells                  COVAR     18    1417    0.0024597     0.033675    0.0020292      0.11282
+macrophage               COVAR     19    1417    0.0053616      0.07094    0.0020786    0.0049986
+transitional_memory      COVAR     19    1417    0.0021889     0.029924    0.0019732      0.13374
+macrophage               COVAR     20    1417    0.0024523     0.032446    0.0024083      0.15437
+type_1_ifn_signature     COVAR     20    1417    0.0059067      0.07851    0.0023792    0.0065786

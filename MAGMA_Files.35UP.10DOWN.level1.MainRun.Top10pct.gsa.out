@@ -1,0 +1,25 @@
+# TOTAL_GENES = 18199
+# TEST_DIRECTION = one-sided, positive (set), two-sided (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, inverse mac, log(gene size), log(gene density), log(inverse mac)
+VARIABLE                  TYPE  NGENES         BETA     BETA_STD           SE            P
+astrocyte                  SET     118     0.026638     0.002138     0.079796      0.36926
+b_cell                     SET       4      0.16035    0.0023771      0.54862      0.38504
+central_memory             SET     107     0.059492    0.0045484     0.084162      0.23983
+cycling                    SET      84     -0.01028  -0.00069678     0.090284      0.54532
+endothelial                SET     141      0.08934    0.0078335     0.072009      0.10737
+fetal_quiescent            SET      85      0.15941     0.010869     0.098821     0.053373
+fetal_replicating          SET      74     -0.24368    -0.015507       0.1066      0.98886
+hsc_g_csf                  SET      79       0.1695     0.011144     0.096885     0.040113
+hybrid                     SET     124   -0.0086564  -0.00071212     0.078604      0.54384
+macrophage                 SET      98      0.11515    0.0084277     0.090788      0.10234
+microglia                  SET     122      0.14743     0.012031     0.078299     0.029862
+neuroepithelial_cell       SET      98     0.022261    0.0016292     0.088251      0.40043
+neurons                    SET     113     0.044954    0.0035314     0.082878      0.29377
+neutrophils                SET      74     0.053926    0.0034318      0.10171        0.298
+nk_cell                    SET      84      0.16325     0.011066     0.091486     0.037186
+oligodendrocytes           SET      98   -0.0081779  -0.00059851     0.090438      0.53602
+opc                        SET     127     -0.18194    -0.015146     0.080618      0.98798
+pro_b_cell_cd34+           SET      40     0.098657    0.0046203      0.12339      0.21199
+t_cells                    SET      95      0.16982     0.012238     0.087415     0.026034
+transitional_memory        SET      77     0.058713    0.0038111     0.095844      0.27008
+type_1_ifn_signature       SET      76   -0.0064578  -0.00041646     0.099725      0.52582
